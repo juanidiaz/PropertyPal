@@ -1,20 +1,73 @@
-# Team Dill - Project 2
+# PropertyPal
+## Real Estate solution for direct selling Owner-Client ##
+![FLIP.IMG](./public/images/property-pal-logo-horiz-blk.png)
 
-## Project requirements
-* Use a Node and Express Web Server;
+See the project [live](https://idiaz-propertypal.herokuapp.com)!
 
-* Be backed by a MySQL Database an ORM (not necessarily Sequelize);
+> **Cretaed by**
+- Tony Green (https://github.com/AnthonyVerde)
+- Tariq Medina (https://github.com/TariqMedina)
+- Juan I Diaz (jdi@idiaz.ca)
 
-* Have both GET and POST routes for retrieving and adding new data;
+> **Date:** March 2019
 
-* Be deployed using Heroku (with Data);
+> ## Project Description
 
-* Utilize at least one new library, package, or technology that we haven’t discussed;
+This project is a fully functional and fully mobile responsive site deployed in [Heroku](https://idiaz-propertypal.herokuapp.com). The idea behind this site is to provide owners to post their properties in a place where potential buyers can look for them without the need of a third party (realtor).
 
-* Have a polished frontend / UI;
+The project is based on **node.js** and **express.js**. The back end is backed by a **MySQL Database** and **Sequelize** as the ORM. The aplication has been deployed in **Heroku** using their **JewsDB** database application.
 
-* Have folder structure that meets MVC Paradigm;
+> ## Building tools
+- **FRONT END**
+    - HTML, CSS
+    - Javascript and jQuery
+    - Bootstrap
 
-* Meet good quality coding standards (indentation, scoping, naming).
+- **BACK END**
+    - node.js
+    - Express
+    - ORM
+    - MySQL / JawsDB MySQL
+    - Handlebars
 
-* Must not expose sensitive API key information on the server, see [Protecting-API-Keys-In-Node.md](../../../10-nodejs/03-Supplemental/Protecting-API-Keys-In-Node.md)
+- **Deployment**
+    - Heroku
+
+>**Screenshots**
+
+*Landing page - Mobile*
+![03](./other/mobile_landing.png)
+
+*Landing page - Mobile*
+![04](./other/mobile_search.png)
+
+*Client login modal - Mobile*
+![02](./other/mobile_clientModal.png)
+
+*Client page - Mobile*
+![01](./other/mobile_client.png)
+
+*Client page - Web*
+![07](./other/web_client1.png)
+
+*Client page - Web*
+![08](./other/web_client2.png)
+
+*Site administrator's page - Web*
+![05](./other/web_admin1.png)
+
+*Site administrator's page - Web*
+![06](./other/web_admin2.png)
+
+*Owner edit page - Web*
+![09](./other/web_editOwner.png)
+
+*Property edit page - Web*
+![10](./other/web_editProperty.png)
+
+
+>## QUESTIONS OR COMMENTS
+- Feel free to contact the developers:
+    - Tony Green @ <anthony.green.creative@gmail.com>!
+    - Juan I Diaz @ <jdi@idiaz.ca>!
+- See the **depolyed** project [live](https://idiaz-propertypal.herokuapp.com)
